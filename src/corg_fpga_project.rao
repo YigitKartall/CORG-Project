@@ -1,0 +1,121 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk_in" trig_type="0" storage_depth="1024" window_num="1" capture_amount="1024" implementation="0" trigger_pos="512" module_name="top_tangnano9k" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Bus capture_enable="true" name="dbg_pc[15:0]">
+                <Signal>dbg_pc[15]</Signal>
+                <Signal>dbg_pc[14]</Signal>
+                <Signal>dbg_pc[13]</Signal>
+                <Signal>dbg_pc[12]</Signal>
+                <Signal>dbg_pc[11]</Signal>
+                <Signal>dbg_pc[10]</Signal>
+                <Signal>dbg_pc[9]</Signal>
+                <Signal>dbg_pc[8]</Signal>
+                <Signal>dbg_pc[7]</Signal>
+                <Signal>dbg_pc[6]</Signal>
+                <Signal>dbg_pc[5]</Signal>
+                <Signal>dbg_pc[4]</Signal>
+                <Signal>dbg_pc[3]</Signal>
+                <Signal>dbg_pc[2]</Signal>
+                <Signal>dbg_pc[1]</Signal>
+                <Signal>dbg_pc[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="dbg_ifid_instr[15:0]">
+                <Signal>dbg_ifid_instr[15]</Signal>
+                <Signal>dbg_ifid_instr[14]</Signal>
+                <Signal>dbg_ifid_instr[13]</Signal>
+                <Signal>dbg_ifid_instr[12]</Signal>
+                <Signal>dbg_ifid_instr[11]</Signal>
+                <Signal>dbg_ifid_instr[10]</Signal>
+                <Signal>dbg_ifid_instr[9]</Signal>
+                <Signal>dbg_ifid_instr[8]</Signal>
+                <Signal>dbg_ifid_instr[7]</Signal>
+                <Signal>dbg_ifid_instr[6]</Signal>
+                <Signal>dbg_ifid_instr[5]</Signal>
+                <Signal>dbg_ifid_instr[4]</Signal>
+                <Signal>dbg_ifid_instr[3]</Signal>
+                <Signal>dbg_ifid_instr[2]</Signal>
+                <Signal>dbg_ifid_instr[1]</Signal>
+                <Signal>dbg_ifid_instr[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="U_CPU/dbg_waddr[3:0]">
+                <Signal>U_CPU/dbg_waddr[3]</Signal>
+                <Signal>U_CPU/dbg_waddr[2]</Signal>
+                <Signal>U_CPU/dbg_waddr[1]</Signal>
+                <Signal>U_CPU/dbg_waddr[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="U_CPU/dbg_wdata[15:0]">
+                <Signal>U_CPU/dbg_wdata[15]</Signal>
+                <Signal>U_CPU/dbg_wdata[14]</Signal>
+                <Signal>U_CPU/dbg_wdata[13]</Signal>
+                <Signal>U_CPU/dbg_wdata[12]</Signal>
+                <Signal>U_CPU/dbg_wdata[11]</Signal>
+                <Signal>U_CPU/dbg_wdata[10]</Signal>
+                <Signal>U_CPU/dbg_wdata[9]</Signal>
+                <Signal>U_CPU/dbg_wdata[8]</Signal>
+                <Signal>U_CPU/dbg_wdata[7]</Signal>
+                <Signal>U_CPU/dbg_wdata[6]</Signal>
+                <Signal>U_CPU/dbg_wdata[5]</Signal>
+                <Signal>U_CPU/dbg_wdata[4]</Signal>
+                <Signal>U_CPU/dbg_wdata[3]</Signal>
+                <Signal>U_CPU/dbg_wdata[2]</Signal>
+                <Signal>U_CPU/dbg_wdata[1]</Signal>
+                <Signal>U_CPU/dbg_wdata[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">dbg_we</Signal>
+            <Signal capture_enable="true">dbg_stall</Signal>
+            <Signal capture_enable="true">dbg_flush</Signal>
+            <Signal capture_enable="true">dbg_bubble</Signal>
+            <Signal capture_enable="true">halted</Signal>
+            <Signal capture_enable="true">cpu_en</Signal>
+            <Signal capture_enable="true">hb</Signal>
+            <Signal capture_enable="true">step_pulse_r</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>cpu_en</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1000010110100001</GAO_ID>
+</GAO_CONFIG>
